@@ -1,0 +1,35 @@
+.navbar_container {
+  width: 100%;
+  display: flex;
+  background-color: darkslateblue;
+}
+
+.inner_container {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_container {
+  flex: 30%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+.rigth_container {
+  flex: 70%;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+
+.links_container {
+  display: flex;
+  a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: x-large;
+  }
+}
