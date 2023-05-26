@@ -8,8 +8,7 @@
 
 .link {
   text-decoration: none;
-
-  svg {
-    color: black;
-  }
 }
+.link svg {
+  color: black;
+}/*# sourceMappingURL=Footer.module.css.map */
