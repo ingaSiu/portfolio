@@ -1,9 +1,12 @@
 .container {
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 20px;
   gap: 10px;
+  position: fixed;
+  bottom: 0px;
 }
 
 .link {
