@@ -1,5 +1,12 @@
+import ProjectCard from './ProjectCard';
+
 const Projects = () => {
-  return <div>Projects</div>;
+  return (
+    <section>
+      <h1>My Projects</h1>
+      <ProjectCard name="Food blog" img="JavaScript.svg" />
+    </section>
+  );
 };
 
 export default Projects;
