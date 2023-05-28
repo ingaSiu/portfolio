@@ -14,8 +14,8 @@
 .left_container {
   flex: 30%;
   display: flex;
-  justify-content: flex-end;
-  padding-right: 50px;
+  // justify-content: flex-end;
+  padding-left: 50px;
 }
 
 .rigth_container {
@@ -28,6 +28,7 @@
 .links_container {
   display: flex;
   a {
+    color: white;
     text-decoration: none;
     margin: 10px;
     font-size: x-large;
