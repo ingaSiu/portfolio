@@ -1,0 +1,13 @@
+.btn {
+  font-size: 15px;
+  border: 1px solid #e7e7e7;
+  background-color: #fff;
+  outline: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: green;
+}
+.btn:hover {
+  color: black;
+  cursor: pointer;
+}/*# sourceMappingURL=Button.module.css.map */
