@@ -1,0 +1,15 @@
+.container {
+  background-color: aquamarine;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+
+  img {
+    width: 50px;
+  }
+}
+.btn_container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
