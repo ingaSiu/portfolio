@@ -5,6 +5,15 @@
   gap: 50px;
 }
 
+.about {
+  max-width: 450px;
+  text-align: justify;
+}
+.about span {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
 .main_skills {
   display: flex;
   gap: 10px;
@@ -14,10 +23,16 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  padding-bottom: 8px;
 }
 .skill_container img {
-  width: 25px;
+  width: 50px;
 }
 .skill_container span {
   font-weight: 500;
+}
+
+.other_skills_wrapper {
+  display: flex;
+  gap: 8px;
 }/*# sourceMappingURL=About.module.css.map */
