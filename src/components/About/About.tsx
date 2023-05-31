@@ -59,11 +59,11 @@ const About = () => {
         <div className={styles.additional_skills}>
           <h4>Familiar with:</h4>
           <div className={styles.other_skills_wrapper}>
-            <Skill img="MaterialUI-Dark.svg" name="MUI" />
-            <Skill img="TailwindCSS-Dark.svg" name="TailwindCSS" />
-            <Skill img="NodeJS-Dark.svg" name="NodeJS" />
-            <Skill img="MongoDB.svg" name="Mongo DB" />
-            <Skill img="Postman.svg" name="Postman" />
+            <Skill img="MaterialUI-Dark.svg" name="" />
+            <Skill img="TailwindCSS-Dark.svg" name="" />
+            <Skill img="NodeJS-Dark.svg" name="" />
+            <Skill img="MongoDB.svg" name="" />
+            <Skill img="Postman.svg" name="" />
           </div>
         </div>
       </div>
