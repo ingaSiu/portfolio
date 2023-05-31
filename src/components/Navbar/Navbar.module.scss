@@ -1,7 +1,11 @@
+@import '../../sass/mixins/mediaQueries.scss';
+
 .navbar_container {
   width: 100%;
   display: flex;
   background-color: darkslateblue;
+  position: fixed;
+  top: 0px;
 }
 
 .inner_container {
@@ -14,8 +18,18 @@
 .left_container {
   flex: 30%;
   display: flex;
-  // justify-content: flex-end;
   padding-left: 50px;
+  align-items: center;
+  font-size: 32px;
+
+  img {
+    width: 80px;
+  }
+  p {
+    @include small {
+      display: none;
+    }
+  }
 }
 
 .rigth_container {
@@ -32,5 +46,40 @@
     text-decoration: none;
     margin: 10px;
     font-size: x-large;
+
+    @include small {
+      display: none;
+    }
+  }
+}
+
+.nav_extend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 700px) {
+    display: none;
+  }
+
+  a {
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+    margin: 10px;
+  }
+}
+
+.nav_btn {
+  width: 70px;
+  height: 50px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 45px;
+  cursor: pointer;
+
+  @media (min-width: 700px) {
+    display: none;
   }
 }
