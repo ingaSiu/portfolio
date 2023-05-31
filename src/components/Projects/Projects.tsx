@@ -4,7 +4,7 @@ import styles from './Projects.module.scss';
 
 const Projects = () => {
   return (
-    <section>
+    <section id="projects">
       <h1>My Projects</h1>
       <div className={styles.cards_wrapper}>
         {projectInfo.map((item) => (
