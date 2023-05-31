@@ -1,8 +1,15 @@
+@import '../../sass/mixins/mediaQueries.scss';
+
 .about_container {
   margin: 20px;
   display: flex;
   justify-content: center;
   gap: 50px;
+
+  @include medium {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .about {
@@ -34,12 +41,25 @@
   span {
     font-weight: 500;
   }
+
+  @include small {
+    flex-direction: column;
+  }
 }
 
 .other_skills_wrapper {
   display: flex;
   gap: 8px;
+
+  @include small {
+    justify-content: center;
+
+    flex-wrap: wrap;
+  }
 }
 
 .additional_skills {
+  h4 {
+    font-size: 25px;
+  }
 }
