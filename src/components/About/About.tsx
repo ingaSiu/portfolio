@@ -32,7 +32,7 @@ const About = () => {
           encourages me to study and practice even more.
         </p>
         <p>
-          <span>Googling is better than procrastination</span> Than a problem arises I always try to find more
+          <span>Googling is better than procrastination</span> Then a problem arises I always try to find more
           information and put aquired knowledge to use by creating a solution. So StackOverflow, Youtube, ChatGTP, etc.
           are my companions in the programming journey.
         </p>
