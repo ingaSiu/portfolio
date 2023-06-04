@@ -11,6 +11,13 @@ const About = () => {
           but also to boost my experiences and create myself a place in very vast and interesting field which is always
           growing.
         </p>
+        <div className={styles.linkedin}>
+          <p>So let's connect!</p>{' '}
+          <a href="https://www.linkedin.com/in/inga-siudikien%C4%97-201b0a268/" target="_blank">
+            <img src="LinkedIn.svg" />
+          </a>
+        </div>
+
         <h4>Main principles:</h4>
         <p>
           <span>Consistency is the key!</span> As someone who loves to learn and grow, I am always seeking out new
