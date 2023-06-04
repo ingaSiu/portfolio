@@ -5,8 +5,10 @@ const Navbar = () => {
     <div className={styles.navbar_container}>
       <div className={styles.inner_container}>
         <div className={styles.left_container}>
-          <img src="" />
-          <p>Inga Siudikiene</p>
+          <img src="cat_icon.png" />
+          <p>
+            {'<'}Inga Siudikienė{'/>'}
+          </p>
         </div>
 
         <div className={styles.right_container}>
