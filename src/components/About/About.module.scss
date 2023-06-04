@@ -21,7 +21,16 @@
     letter-spacing: 2px;
   }
 }
-
+.linkedin {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 24px;
+  font-weight: 600;
+  img {
+    width: 40px;
+  }
+}
 .skills {
 }
 
