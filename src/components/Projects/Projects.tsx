@@ -1,14 +1,21 @@
 import ProjectCard from './ProjectCard';
-import { projectInfo } from '../../assets/project_info/project_info';
+import { projectInfo } from '../../assets/Info/projectInfo';
 import styles from './Projects.module.scss';
 
 const Projects = () => {
   return (
-    <section>
-      <h1>My Projects</h1>
+    <section id="projects">
+      <h1 className={styles.title}>My Projects</h1>
       <div className={styles.cards_wrapper}>
         {projectInfo.map((item) => (
-          <ProjectCard key={item.name} name={item.name} img={item.img} url={item.url} />
+          <ProjectCard
+            key={item.id}
+            name={item.name}
+            img={item.img}
+            urlDemo={item.urlDemo}
+            urlGit={item.urlGit}
+            description={item.description}
+          />
         ))}
       </div>
     </section>

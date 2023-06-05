@@ -1,4 +1,12 @@
+.title {
+  text-align: center;
+  font-size: 50px;
+}
+
 .cards_wrapper {
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
+  justify-content: center;
+  align-items: center;
 }

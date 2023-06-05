@@ -11,6 +11,13 @@ const About = () => {
           but also to boost my experiences and create myself a place in very vast and interesting field which is always
           growing.
         </p>
+        <div className={styles.linkedin}>
+          <p>So let's connect!</p>{' '}
+          <a href="https://www.linkedin.com/in/inga-siudikien%C4%97-201b0a268/" target="_blank">
+            <img src="LinkedIn.svg" />
+          </a>
+        </div>
+
         <h4>Main principles:</h4>
         <p>
           <span>Consistency is the key!</span> As someone who loves to learn and grow, I am always seeking out new
@@ -32,9 +39,9 @@ const About = () => {
           encourages me to study and practice even more.
         </p>
         <p>
-          <span>Googling is better than procrastination</span> Than a problem arises I always try to find more
-          information and put aquired knowledge to use by creating a solution. So StackOverflow, Youtube, ChatGTP are my
-          companions in the programming journey.
+          <span>Googling is better than procrastination</span> Then a problem arises I always try to find more
+          information and put aquired knowledge to use by creating a solution. So StackOverflow, Youtube, ChatGTP, etc.
+          are my companions in the programming journey.
         </p>
       </div>
 
@@ -59,11 +66,11 @@ const About = () => {
         <div className={styles.additional_skills}>
           <h4>Familiar with:</h4>
           <div className={styles.other_skills_wrapper}>
-            <Skill img="MaterialUI-Dark.svg" name="MUI" />
-            <Skill img="TailwindCSS-Dark.svg" name="TailwindCSS" />
-            <Skill img="NodeJS-Dark.svg" name="NodeJS" />
-            <Skill img="MongoDB.svg" name="Mongo DB" />
-            <Skill img="Postman.svg" name="Postman" />
+            <Skill img="MaterialUI-Dark.svg" name="" />
+            <Skill img="TailwindCSS-Dark.svg" name="" />
+            <Skill img="NodeJS-Dark.svg" name="" />
+            <Skill img="MongoDB.svg" name="" />
+            <Skill img="Postman.svg" name="" />
           </div>
         </div>
       </div>

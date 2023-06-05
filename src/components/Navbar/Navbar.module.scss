@@ -1,7 +1,11 @@
+@import '../../sass/mixins/mediaQueries.scss';
+
 .navbar_container {
   width: 100%;
   display: flex;
-  background-color: darkslateblue;
+  background-color: #dfd1e7;
+  position: fixed;
+  top: 0px;
 }
 
 .inner_container {
@@ -14,23 +18,43 @@
 .left_container {
   flex: 30%;
   display: flex;
-  // justify-content: flex-end;
+
   padding-left: 50px;
+  align-items: center;
+
+  p {
+    font-size: 28px;
+    @include medium {
+      display: none;
+    }
+  }
+  img {
+    width: 80px;
+  }
 }
 
-.rigth_container {
-  flex: 70%;
+.right_container {
   display: flex;
-  align-items: center;
-  padding-left: 5%;
+  padding-right: 12px;
 }
 
 .links_container {
   display: flex;
+  align-items: center;
+
   a {
     color: white;
     text-decoration: none;
     margin: 10px;
     font-size: x-large;
+    @include medium {
+      color: black;
+      margin: 0;
+    }
+  }
+
+  @include medium {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
