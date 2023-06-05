@@ -19,14 +19,7 @@ export const projectInfo: InfoProps[] = [
     urlDemo: 'https://food-blog.ingasiu.online/#/',
     urlGit: 'https://github.com/ingaSiu/food-blog',
   },
-  {
-    name: 'Food Blog API',
-    img: `${imageRootPath}api_main.png`,
-    description: 'A back-end project for Food-blog. ',
-    id: 2,
-    urlDemo: 'https://food-blog-api.ingasiu.online/',
-    urlGit: 'https://github.com/ingaSiu/food-blog-api',
-  },
+
   {
     name: 'CatOwerflow forum',
     img: `${imageRootPath}forum_main.png`,
@@ -35,6 +28,14 @@ export const projectInfo: InfoProps[] = [
     id: 3,
     urlDemo: '#',
     urlGit: 'https://github.com/ingaSiu/final-project',
+  },
+  {
+    name: 'Food Blog API',
+    img: `${imageRootPath}api_main.png`,
+    description: 'A back-end project for Food-blog. ',
+    id: 2,
+    urlDemo: 'https://food-blog-api.ingasiu.online/',
+    urlGit: 'https://github.com/ingaSiu/food-blog-api',
   },
   {
     name: 'Ecommerce project',
