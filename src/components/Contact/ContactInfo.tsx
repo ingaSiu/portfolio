@@ -1,29 +1,26 @@
-import { FaEnvelope, FaGithub, FaLinkedin, FaMapMarkerAlt, FaMobileAlt } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+
+import styles from './ContactInfo.module.scss';
 
 const ContactInfo = () => {
   return (
-    <div>
-      {' '}
-      <div>
-        <div>
-          <h3>CONTACT INFO</h3>
-          <div>
-            <FaEnvelope />
-            ingasiu@gmail.com
-          </div>
-          <p>
-            <FaMobileAlt /> +370 604 66592
-          </p>
-          <p>
-            <FaMapMarkerAlt />
-            Vilnius, Lithuania
-          </p>
+    <div className={styles.wrapper}>
+      <h2 className={styles.opener}>Just say hi!</h2>
+      <p className={styles.text}>I'm always open to discuss your project and talk about new things.</p>
+      <div className={styles.contact_wrapper}>
+        <div className={styles.mail}>
+          <p className={styles.small_text}>Mail me at</p>
+          <p>ingasiu.dev@gmail.com</p>
         </div>
-        <div>
-          <h3>Social Networks</h3>
+        <div className={styles.icons_wrapper}>
+          <p className={styles.small_text}>Follow me</p>
           <div>
-            <FaGithub />
-            <FaLinkedin />
+            <a href="https://www.linkedin.com/in/inga-siud/" target="_blank">
+              <FaLinkedin />
+            </a>
+            <a href="https://github.com/ingaSiu" target="_blank">
+              <FaGithub />
+            </a>
           </div>
         </div>
       </div>
