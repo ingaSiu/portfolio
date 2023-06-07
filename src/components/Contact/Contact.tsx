@@ -5,10 +5,10 @@ import styles from './Contact.module.scss';
 const Contact = () => {
   return (
     <section id="contact" className={styles.container}>
-      <h1>Contact Me</h1>
-
-      <ContactForm />
-      <ContactInfo />
+      <div className={styles.contact_wrapper}>
+        <ContactInfo />
+        <ContactForm />
+      </div>
     </section>
   );
 };
