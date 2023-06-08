@@ -6,3 +6,6 @@
   font-family: 'Inconsolata', monospace;
 }
 
+html {
+  scroll-behavior: smooth;
+}
