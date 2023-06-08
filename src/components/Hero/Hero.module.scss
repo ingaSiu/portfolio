@@ -1,0 +1,85 @@
+@import '../../sass/mixins/mediaQueries.scss';
+
+.hero_wrapper {
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 300px;
+  @include medium {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+  }
+}
+
+.intro_wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+
+  @include medium {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  @include small {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.col1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.col2 {
+  width: 15%;
+  img {
+    box-shadow: -50px -50px 0 -40px yellow, 50px 50px 0 -40px yellow;
+    width: 100%;
+  }
+
+  @include medium {
+    width: 50%;
+  }
+  @include small {
+    display: none;
+  }
+}
+
+.name {
+  font-size: 70px;
+  margin-bottom: 16px;
+  @include small {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+
+.intro {
+  align-self: flex-end;
+  margin-top: 16px;
+  font-size: 35px;
+  @include small {
+    font-size: 20px;
+    align-self: center;
+  }
+}
+
+.contact_wrapper {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact_icons {
+  display: flex;
+
+  a {
+    padding-right: 16px;
+    text-decoration: none;
+    color: black;
+  }
+}
