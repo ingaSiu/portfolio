@@ -9,7 +9,8 @@
 
 ## Features
 - About, Projects, and Contact sections
+- Minimalistic, responsive design
 - Convenient navigation for both mobile and larger devices
 - Implementation of EmailJS for sending emails using client-side technologies only
-- Minimalist, responsive design
+
 
