@@ -3,8 +3,8 @@
 .navbar_container {
   width: 100%;
   display: flex;
-
-  background-color: #dfd1e7;
+  background-color: white;
+  // box-shadow: 0 8px 8px -4px #fefee1;
   position: fixed;
   top: 0px;
 }
@@ -44,12 +44,11 @@
   align-items: center;
 
   a {
-    color: white;
+    color: black;
     text-decoration: none;
     margin: 10px;
     font-size: x-large;
     @include medium {
-      color: black;
       margin: 0;
     }
   }
