@@ -6,7 +6,7 @@ const ContactInfo = () => {
   return (
     <div className={styles.wrapper}>
       <h2 className={styles.opener}>Just say hi!</h2>
-      <p className={styles.text}>I'm always open to discuss your project and talk about new things.</p>
+      <p className={styles.text}>I'm always open for discussion about new projects and collaborations.</p>
       <div className={styles.contact_wrapper}>
         <div className={styles.mail}>
           <p className={styles.small_text}>Mail me at</p>
