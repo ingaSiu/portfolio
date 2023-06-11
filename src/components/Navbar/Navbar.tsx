@@ -5,7 +5,11 @@ const Navbar = () => {
     <div className={styles.navbar_container}>
       <div className={styles.inner_container}>
         <div className={styles.left_container}>
-          <img src="cat_icon.png" />
+          <a href="#">
+            {' '}
+            <img src="cat_icon.png" />
+          </a>
+
           <p>
             {'<'}Inga Siudikienė{'/>'}
           </p>
