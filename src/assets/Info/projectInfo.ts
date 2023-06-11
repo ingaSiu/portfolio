@@ -26,7 +26,7 @@ export const projectInfo: InfoProps[] = [
     description:
       'A full-stack website to share post online. Register, log in, post to feed, see other users posts, rate answers, sort/filter, edit posts',
     id: 3,
-    urlDemo: '#',
+    urlDemo: 'https://cat-overflow.ingasiu.online/',
     urlGit: 'https://github.com/ingaSiu/final-project',
   },
   {
