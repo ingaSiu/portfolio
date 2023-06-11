@@ -16,6 +16,10 @@
   max-width: 450px;
   text-align: justify;
 
+  h1 {
+    text-align: center;
+  }
+
   span {
     font-weight: bold;
     letter-spacing: 2px;
@@ -32,6 +36,7 @@
   }
 }
 .skills {
+  text-align: center;
 }
 
 .main_skills {
