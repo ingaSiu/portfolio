@@ -37,7 +37,7 @@
 .col2 {
   width: 15%;
   img {
-    box-shadow: -50px -50px 0 -40px yellow, 50px 50px 0 -40px yellow;
+    box-shadow: -50px -50px 0 -40px #fcfc97, 50px 50px 0 -40px #fcfc97;
     width: 100%;
   }
 
@@ -49,9 +49,24 @@
   }
 }
 
+// 	#ca96fd
+
 .name {
   font-size: 70px;
   margin-bottom: 16px;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ca96fd;
+    transition: width 0.3s;
+  }
+  &:hover::after {
+    width: 100%;
+  }
+
   @include small {
     text-align: center;
     font-size: 40px;
