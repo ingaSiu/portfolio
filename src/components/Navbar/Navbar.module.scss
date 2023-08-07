@@ -37,6 +37,10 @@
 .right_container {
   display: flex;
   padding-right: 12px;
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }
 
 .links_container {
