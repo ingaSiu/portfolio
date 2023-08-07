@@ -1,3 +1,4 @@
+import MobileMenu from './MobileMenu/MobileMenu';
 import styles from './Navbar.module.scss';
 
 const Navbar = () => {
@@ -22,6 +23,7 @@ const Navbar = () => {
             <a href="#contact">Contact</a>
           </div>
         </div>
+        <MobileMenu />
       </div>
     </div>
   );
