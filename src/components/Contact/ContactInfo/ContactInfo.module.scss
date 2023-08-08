@@ -1,9 +1,13 @@
-@import '../../sass/mixins/mediaQueries.scss';
+@import '../../../sass/mixins/mediaQueries.scss';
 
 .wrapper {
   display: flex;
   flex-direction: column;
   max-width: 400px;
+
+  @include small {
+    margin: 20px;
+  }
 }
 .opener {
   font-weight: 600;

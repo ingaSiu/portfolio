@@ -1,6 +1,6 @@
 import { SyntheticEvent, useRef, useState } from 'react';
 
-import Button from '../Button/Button';
+import Button from '../../Button/Button';
 import emailjs from '@emailjs/browser';
 import style from './ContactForm.module.scss';
 
