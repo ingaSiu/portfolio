@@ -15,18 +15,18 @@ const MobileMenu = () => {
       <div ref={menuRef} className={styles.slidingMenu}>
         <ul className={styles.menuNav}>
           <li>
-            <a href="#">Chrome Extension</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#">Price Comparison</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>
 
-      <div onClick={handleClick} className={styles.menuWrapper}>
+      <div onClick={handleClick} className={styles.iconWrapper}>
         {isOpened ? (
           <img src="close.svg" alt="Close menu icon" className={styles.menuIcon} width={19} height={16} />
         ) : (
