@@ -1,4 +1,4 @@
-import ProjectCard from './ProjectCard';
+import ProjectCard from './ProjectCard/ProjectCard';
 import { projectInfo } from '../../assets/Info/projectInfo';
 import styles from './Projects.module.scss';
 
@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section id="projects">
       <h1 className={styles.title}>My Projects</h1>
-      <div className={styles.cards_wrapper}>
+      <div className={styles.cardsWrapper}>
         {projectInfo.map((item) => (
           <ProjectCard
             key={item.id}

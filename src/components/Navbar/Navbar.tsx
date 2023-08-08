@@ -1,10 +1,11 @@
+import MobileMenu from './MobileMenu/MobileMenu';
 import styles from './Navbar.module.scss';
 
 const Navbar = () => {
   return (
-    <div className={styles.navbar_container}>
-      <div className={styles.inner_container}>
-        <div className={styles.left_container}>
+    <div className={styles.navbarContainer}>
+      <div className={styles.innerContainer}>
+        <div className={styles.leftContainer}>
           <a href="#">
             {' '}
             <img src="cat_icon.png" />
@@ -15,13 +16,14 @@ const Navbar = () => {
           </p>
         </div>
 
-        <div className={styles.right_container}>
-          <div className={styles.links_container}>
+        <div className={styles.rightContainer}>
+          <div className={styles.linksContainer}>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
           </div>
         </div>
+        <MobileMenu />
       </div>
     </div>
   );

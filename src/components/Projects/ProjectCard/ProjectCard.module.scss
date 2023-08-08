@@ -1,4 +1,4 @@
-@import '../../sass/mixins/mediaQueries.scss';
+@import '../../../sass/mixins/mediaQueries.scss';
 
 .container {
   background-color: #fefec8;
@@ -26,7 +26,7 @@
     width: 100%;
   }
 }
-.btn_container {
+.btnContainer {
   display: flex;
   justify-content: center;
   gap: 10px;

@@ -7,7 +7,7 @@ type SkillProps = {
 
 const Skill = ({ img, name }: SkillProps) => {
   return (
-    <div className={styles.skill_container}>
+    <div className={styles.skillContainer}>
       <img src={img} alt={name} />
       <span>{name}</span>
     </div>

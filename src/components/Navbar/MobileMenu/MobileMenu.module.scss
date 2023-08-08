@@ -1,0 +1,55 @@
+.slidingMenu {
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  right: 0;
+  height: 0;
+  background-color: white;
+  transition: height 0.3s ease-in-out;
+  overflow: hidden;
+
+  .menuNav {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 12px;
+    margin: 0;
+    height: 100%;
+    list-style-type: none;
+
+    li {
+      padding: 0.5rem 0;
+
+      a {
+        color: inherit;
+        font-size: 1.5rem;
+        text-decoration: none;
+
+        &:hover {
+          color: #4eb3e3;
+        }
+      }
+    }
+  }
+}
+
+.slidingMenu.active {
+  height: 11rem;
+  border-bottom: 1px solid #1f343e;
+}
+
+.iconWrapper {
+  display: grid;
+  place-items: center;
+  width: 1.1431rem;
+  height: 2rem;
+  cursor: pointer;
+  padding: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .iconWrapper {
+    display: none;
+  }
+}

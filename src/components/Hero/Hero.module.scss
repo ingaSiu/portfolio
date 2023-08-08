@@ -1,10 +1,11 @@
 @import '../../sass/mixins/mediaQueries.scss';
 
-.hero_wrapper {
+.heroWrapper {
   margin-top: 300px;
   display: flex;
   flex-direction: column;
   margin-bottom: 300px;
+
   @include medium {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -12,7 +13,7 @@
   }
 }
 
-.intro_wrapper {
+.introWrapper {
   display: flex;
   justify-content: center;
   gap: 100px;
@@ -26,6 +27,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 0;
   }
 }
 .col1 {
@@ -35,7 +37,7 @@
   justify-content: center;
 }
 .col2 {
-  width: 15%;
+  width: 20%;
   img {
     box-shadow: -50px -50px 0 -40px #fcfc97, 50px 50px 0 -40px #fcfc97;
     width: 100%;
@@ -43,9 +45,6 @@
 
   @include medium {
     width: 50%;
-  }
-  @include small {
-    display: none;
   }
 }
 
@@ -77,19 +76,24 @@
   align-self: flex-end;
   margin-top: 16px;
   font-size: 35px;
+  @include medium {
+    align-self: flex-start;
+  }
   @include small {
     font-size: 20px;
+    margin-top: 0;
     align-self: center;
+    text-align: center;
   }
 }
 
-.contact_wrapper {
+.contactWrapper {
   margin-top: 16px;
   display: flex;
   justify-content: space-evenly;
 }
 
-.contact_icons {
+.contactIcons {
   display: flex;
 
   a {
