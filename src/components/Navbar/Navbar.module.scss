@@ -4,7 +4,6 @@
   width: 100%;
   display: flex;
   background-color: white;
-  // box-shadow: 0 8px 8px -4px #fefee1;
   position: fixed;
   top: 0px;
 }
@@ -19,10 +18,15 @@
 .left_container {
   flex: 30%;
   display: flex;
-
   padding-left: 50px;
   align-items: center;
 
+  @include medium {
+    padding-left: 20px;
+  }
+  @include small {
+    padding-top: 5px;
+  }
   p {
     font-size: 28px;
     @include medium {
@@ -52,13 +56,5 @@
     text-decoration: none;
     margin: 10px;
     font-size: x-large;
-    @include medium {
-      margin: 0;
-    }
-  }
-
-  @include medium {
-    flex-direction: column;
-    align-items: flex-start;
   }
 }
