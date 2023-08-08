@@ -26,6 +26,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 0;
   }
 }
 .col1 {
@@ -35,7 +36,7 @@
   justify-content: center;
 }
 .col2 {
-  width: 15%;
+  width: 20%;
   img {
     box-shadow: -50px -50px 0 -40px #fcfc97, 50px 50px 0 -40px #fcfc97;
     width: 100%;
@@ -43,9 +44,6 @@
 
   @include medium {
     width: 50%;
-  }
-  @include small {
-    display: none;
   }
 }
 
@@ -77,9 +75,14 @@
   align-self: flex-end;
   margin-top: 16px;
   font-size: 35px;
+  @include medium {
+    align-self: flex-start;
+  }
   @include small {
     font-size: 20px;
+    margin-top: 0;
     align-self: center;
+    text-align: center;
   }
 }
 
