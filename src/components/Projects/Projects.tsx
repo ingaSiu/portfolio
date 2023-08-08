@@ -1,4 +1,4 @@
-import ProjectCard from './ProjectCard';
+import ProjectCard from './ProjectCard/ProjectCard';
 import { projectInfo } from '../../assets/Info/projectInfo';
 import styles from './Projects.module.scss';
 
