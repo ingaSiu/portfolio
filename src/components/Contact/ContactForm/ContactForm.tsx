@@ -46,8 +46,8 @@ const ContactForm = () => {
   };
 
   return (
-    <form ref={form} onSubmit={handleSubmit} className={style.contact_form}>
-      <div className={style.input_wrapper}>
+    <form ref={form} onSubmit={handleSubmit} className={style.contactForm}>
+      <div className={style.inputWrapper}>
         <input
           type="text"
           name="name"
@@ -86,7 +86,7 @@ const ContactForm = () => {
         )}
         {messageSent && <div className="success-message">Thank you! Your message has been sent</div>}
       </div>
-      <div className={style.btn_wrapper}>
+      <div className={style.btnWrapper}>
         <Button name="Contact Me!" />
       </div>
     </form>

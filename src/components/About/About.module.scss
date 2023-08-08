@@ -1,6 +1,6 @@
 @import '../../sass/mixins/mediaQueries.scss';
 
-.about_container {
+.aboutContainer {
   margin: 20px;
   display: flex;
   justify-content: center;
@@ -40,12 +40,12 @@
   text-align: center;
 }
 
-.main_skills {
+.mainSkills {
   display: flex;
   gap: 10px;
 }
 
-.skill_container {
+.skillContainer {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -62,7 +62,7 @@
   }
 }
 
-.other_skills_wrapper {
+.otherSkillsWrapper {
   display: flex;
   gap: 8px;
 
@@ -73,7 +73,7 @@
   }
 }
 
-.additional_skills {
+.additionalSkills {
   h4 {
     font-size: 25px;
   }

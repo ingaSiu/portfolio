@@ -17,7 +17,7 @@ const ProjectCard = ({ name, img, urlDemo, urlGit, description }: CardProps) => 
       <h3>{name}</h3>
       <img src={img} alt={name} />
       <p>{description}</p>
-      <div className={styles.btn_container}>
+      <div className={styles.btnContainer}>
         <Link to={urlDemo} target="_blank">
           <Button name="DEMO" />
         </Link>

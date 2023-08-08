@@ -4,8 +4,8 @@ import style from './Hero.module.scss';
 
 const Hero = () => {
   return (
-    <section className={style.hero_wrapper}>
-      <div className={style.intro_wrapper}>
+    <section className={style.heroWrapper}>
+      <div className={style.introWrapper}>
         <div className={style.col1}>
           <p className={style.name}>
             I'm <b>Inga Siudikienė</b>
@@ -17,8 +17,8 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className={style.contact_wrapper}>
-        <div className={style.contact_icons}>
+      <div className={style.contactWrapper}>
+        <div className={style.contactIcons}>
           <a href="https://www.linkedin.com/in/inga-siud/" target="_blank">
             <FaLinkedin />
           </a>

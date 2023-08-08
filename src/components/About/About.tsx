@@ -3,7 +3,7 @@ import styles from './About.module.scss';
 
 const About = () => {
   return (
-    <section id="about" className={styles.about_container}>
+    <section id="about" className={styles.aboutContainer}>
       <div className={styles.about}>
         <h1>ABOUT ME</h1>
         <p>
@@ -47,7 +47,7 @@ const About = () => {
 
       <div className={styles.skills}>
         <h1>MY SKILLS</h1>
-        <div className={styles.main_skills}>
+        <div className={styles.mainSkills}>
           <div className={styles.col}>
             <Skill img="JavaScript.svg" name="JavaScript" />
             <Skill img="HTML.svg" name="HTML5" />
@@ -63,9 +63,9 @@ const About = () => {
             <Skill img="Git.svg" name="Git" />
           </div>
         </div>
-        <div className={styles.additional_skills}>
+        <div className={styles.additionalSkills}>
           <h4>Familiar with:</h4>
-          <div className={styles.other_skills_wrapper}>
+          <div className={styles.otherSkillsWrapper}>
             <Skill img="MaterialUI-Dark.svg" name="" />
             <Skill img="TailwindCSS-Dark.svg" name="" />
             <Skill img="NodeJS-Dark.svg" name="" />
