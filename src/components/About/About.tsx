@@ -45,7 +45,7 @@ const About = () => {
         </p>
       </div>
 
-      <div className={styles.skills}>
+      <div id="skills" className={styles.skills}>
         <h1>MY SKILLS</h1>
         <div className={styles.mainSkills}>
           <div className={styles.col}>
@@ -65,12 +65,21 @@ const About = () => {
         </div>
         <div className={styles.additionalSkills}>
           <h4>Familiar with:</h4>
+
           <div className={styles.otherSkillsWrapper}>
-            <Skill img="MaterialUI-Dark.svg" name="" />
-            <Skill img="TailwindCSS-Dark.svg" name="" />
-            <Skill img="NodeJS-Dark.svg" name="" />
-            <Skill img="MongoDB.svg" name="" />
-            <Skill img="Postman.svg" name="" />
+            <div className={styles.familiarSkills}>
+              <Skill img="MaterialUI-Dark.svg" name="" />
+              <Skill img="TailwindCSS-Dark.svg" name="" />
+              <Skill img="NodeJS-Dark.svg" name="" />
+              <Skill img="MongoDB.svg" name="" />
+              <Skill img="Postman.svg" name="" />
+            </div>
+            <div className={styles.familiarSkills}>
+              <Skill img="NextJS-Dark.svg" name="" />
+              <Skill img="Bootstrap.svg" name="" />
+              <Skill img="Jest.svg" name="" />
+              <Skill img="Redux.svg" name="" />
+            </div>
           </div>
         </div>
       </div>

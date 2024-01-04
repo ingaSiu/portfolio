@@ -23,6 +23,9 @@ const MobileMenu = () => {
           <li>
             <a href="#contact">Contact</a>
           </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
         </ul>
       </div>
 
