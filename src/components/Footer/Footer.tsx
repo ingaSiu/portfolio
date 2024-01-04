@@ -1,5 +1,5 @@
 import { FaGithub } from 'react-icons/fa';
-import { currentYear } from '../../sass/utils/currentYear';
+import { currentYear } from '../../utils/currentYear';
 import styles from './Footer.module.scss';
 
 const Footer = () => {
