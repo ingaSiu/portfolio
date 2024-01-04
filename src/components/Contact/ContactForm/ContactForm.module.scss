@@ -1,3 +1,4 @@
+@use '../../../sass/utils/colors' as c;
 @import '../../../sass/mixins/mediaQueries.scss';
 
 .contactForm {
@@ -5,8 +6,8 @@
   flex-direction: column;
   width: 570px;
   height: 350px;
-  border: 1px solid black;
-  background-color: black;
+  border: 1px solid c.$colorBlack;
+  background-color: c.$colorBlack;
 
   @include small {
     width: 100%;
@@ -26,7 +27,7 @@
 
   input,
   textarea {
-    color: white;
+    color: c.$colorWhite;
     line-height: 2;
     width: 100%;
     font-size: 16px;
@@ -35,7 +36,7 @@
     background-color: inherit;
     border: none;
     outline: none;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid c.$colorGreyRegular;
   }
 }
 

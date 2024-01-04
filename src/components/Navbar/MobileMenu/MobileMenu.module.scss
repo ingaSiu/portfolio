@@ -1,10 +1,12 @@
+@use '../../../sass/utils/colors' as c;
+
 .slidingMenu {
   position: absolute;
   top: 4rem;
   left: 0;
   right: 0;
   height: 0;
-  background-color: white;
+  background-color: c.$colorWhite;
   transition: height 0.3s ease-in-out;
   overflow: hidden;
 
@@ -27,7 +29,7 @@
         text-decoration: none;
 
         &:hover {
-          color: #a44bfc;
+          color: c.$colorHover;
         }
       }
     }
@@ -36,7 +38,7 @@
 
 .slidingMenu.active {
   height: 11rem;
-  border-bottom: 1px solid #1f343e;
+  border-bottom: 1px solid c.$colorBlack;
 }
 
 .iconWrapper {

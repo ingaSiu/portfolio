@@ -1,14 +1,16 @@
+@use '../../sass/utils/colors' as c;
+
 .btn {
   font-size: 15px;
-  border: 1px solid #e7e7e7;
-  background-color: #fff;
-  outline: #fff;
+  border: 1px solid c.$colorBtnBorder;
+  background-color: c.$colorWhite;
+  outline: c.$colorWhite;
   padding: 8px 16px;
   border-radius: 4px;
+  color: c.$colorVioletBright;
 
-  color: #ca96fd;
   &:hover {
-    color: #a44bfc;
+    color: c.$colorHover;
     cursor: pointer;
   }
 }

@@ -1,3 +1,5 @@
+@use '../../sass/utils/colors' as c;
+
 .container {
   // width: 100vw;
   display: flex;
@@ -14,6 +16,6 @@
   text-decoration: none;
 
   svg {
-    color: black;
+    color: c.$colorBlack;
   }
 }
