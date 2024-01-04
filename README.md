@@ -1,7 +1,7 @@
 # Portfolio
 
 ## Demo
-:eyes: [Demo](https://ingasiu.online)
+:eyes: [Demo](https://ingasiu.lt)
 
 ## Technologies used
 [![My Skills](https://skillicons.dev/icons?i=ts,react,scss,vite)](https://skillicons.dev)
