@@ -64,12 +64,18 @@
 
 .otherSkillsWrapper {
   display: flex;
-  gap: 8px;
+  gap: 4px;
+  flex-direction: column;
 
   @include small {
     justify-content: center;
-
     flex-wrap: wrap;
+  }
+
+  .familiarSkills {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
   }
 }
 

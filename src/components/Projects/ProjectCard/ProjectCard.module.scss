@@ -1,7 +1,8 @@
+@use '../../../sass/utils/colors' as c;
 @import '../../../sass/mixins/mediaQueries.scss';
 
 .container {
-  background-color: #fefec8;
+  background-color: c.$colorYellowBg;
   // border: 1px dashed black;
   text-align: center;
   display: flex;

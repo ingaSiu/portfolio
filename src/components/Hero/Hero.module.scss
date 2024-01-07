@@ -1,3 +1,4 @@
+@use '../../sass/utils/colors' as c;
 @import '../../sass/mixins/mediaQueries.scss';
 
 .heroWrapper {
@@ -39,7 +40,7 @@
 .col2 {
   width: 20%;
   img {
-    box-shadow: -50px -50px 0 -40px #fcfc97, 50px 50px 0 -40px #fcfc97;
+    box-shadow: -50px -50px 0 -40px c.$colorYellowBright, 50px 50px 0 -40px c.$colorYellowBright;
     width: 100%;
   }
 
@@ -59,7 +60,7 @@
     display: block;
     width: 0;
     height: 2px;
-    background: #ca96fd;
+    background: c.$colorVioletBright;
     transition: width 0.3s;
   }
   &:hover::after {
@@ -99,6 +100,6 @@
   a {
     padding-right: 16px;
     text-decoration: none;
-    color: black;
+    color: c.$colorBlack;
   }
 }
