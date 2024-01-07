@@ -16,7 +16,7 @@ export const projectInfo: InfoProps[] = [
     description:
       'A blog to browse through various recipe posts. Search , add comment and rate recipe posts. Admin has to log in, can create, edit and delete posts and categories. ',
     id: 1,
-    urlDemo: 'https://food-blog.ingasiu.online/#/',
+    urlDemo: 'https://food-blog.ingasiu.lt/#/',
     urlGit: 'https://github.com/ingaSiu/food-blog',
   },
 
@@ -26,7 +26,7 @@ export const projectInfo: InfoProps[] = [
     description:
       'A full-stack website to share post online. Register, log in, post to feed, see other users posts, rate answers, sort/filter, edit posts',
     id: 3,
-    urlDemo: 'https://cat-overflow.ingasiu.online/',
+    urlDemo: 'https://cat-overflow.ingasiu.lt/',
     urlGit: 'https://github.com/ingaSiu/final-project',
   },
   {
@@ -34,7 +34,7 @@ export const projectInfo: InfoProps[] = [
     img: `${imageRootPath}api_main.png`,
     description: 'A back-end project for Food-blog. ',
     id: 2,
-    urlDemo: 'https://food-blog-api.ingasiu.online/',
+    urlDemo: 'https://food-blog-api.ingasiu.lt/',
     urlGit: 'https://github.com/ingaSiu/food-blog-api',
   },
   {
