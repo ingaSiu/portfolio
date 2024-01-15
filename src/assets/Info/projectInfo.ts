@@ -43,16 +43,16 @@ export const projectInfo: InfoProps[] = [
     description:
       'An e-commerce website to buy clothes - register, login, search, filter, add to cart, checkout clothes from a database. ',
     id: 4,
-    urlDemo: '#',
+    urlDemo: '',
     urlGit: 'https://github.com/ingaSiu/ecommerce-project',
   },
   {
     name: 'Pinterest type website',
-    img: `${imageRootPath}interest_main.png`,
+    img: `${imageRootPath}infinite_images.png`,
     description:
-      'A pinterest-type website for favouriting and saving images from Pexels API. Infinite scroll, responsive image loading for better performance ',
+      'A pinterest-type web application for favouriting and saving images from Pexels API. Infinite scroll, responsive image loading for better performance ',
     id: 5,
-    urlDemo: '#',
-    urlGit: 'https://github.com/ingaSiu/interest-page',
+    urlDemo: 'https://ingasiu.github.io/infinite-images/',
+    urlGit: 'https://github.com/ingaSiu/infinite-images',
   },
 ];
