@@ -18,9 +18,14 @@ const ProjectCard = ({ name, img, urlDemo, urlGit, description }: CardProps) => 
       <img src={img} alt={name} />
       <p>{description}</p>
       <div className={styles.btnContainer}>
-        <Link to={urlDemo} target="_blank">
-          <Button name="DEMO" />
-        </Link>
+        {urlDemo === '' ? (
+          ''
+        ) : (
+          <Link to={urlDemo} target="_blank">
+            <Button name="DEMO" />
+          </Link>
+        )}
+
         <Link to={urlGit} target="_blank">
           <Button name="GITHUB" />
         </Link>
