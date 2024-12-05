@@ -11,6 +11,15 @@ type InfoProps = {
 
 export const projectInfo: InfoProps[] = [
   {
+    name: 'Pinterest type website',
+    img: `${imageRootPath}infinite_images.png`,
+    description:
+      'A pinterest-type web application for favouriting and saving images from Pexels API. Infinite scroll, responsive image loading for better performance ',
+    id: 5,
+    urlDemo: 'https://infinite-images.ingasiu.lt/',
+    urlGit: 'https://github.com/ingaSiu/infinite-images',
+  },
+  {
     name: 'Food Blog',
     img: `${imageRootPath}Project_1_main.png`,
     description:
@@ -45,14 +54,5 @@ export const projectInfo: InfoProps[] = [
     id: 4,
     urlDemo: '',
     urlGit: 'https://github.com/ingaSiu/ecommerce-project',
-  },
-  {
-    name: 'Pinterest type website',
-    img: `${imageRootPath}infinite_images.png`,
-    description:
-      'A pinterest-type web application for favouriting and saving images from Pexels API. Infinite scroll, responsive image loading for better performance ',
-    id: 5,
-    urlDemo: 'https://ingasiu.github.io/infinite-images/',
-    urlGit: 'https://github.com/ingaSiu/infinite-images',
   },
 ];
