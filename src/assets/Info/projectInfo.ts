@@ -20,6 +20,15 @@ export const projectInfo: InfoProps[] = [
     urlGit: 'https://github.com/ingaSiu/infinite-images',
   },
   {
+    name: 'Ecommerce project',
+    img: `${imageRootPath}ecommerce_main.png`,
+    description:
+      'An responsive e-commerce website to buy various cat merchandise - browse, sort, add to cart, checkout. And many more functionalities to come...',
+    id: 4,
+    urlDemo: 'https://eshop-project-nine.vercel.app/',
+    urlGit: 'https://github.com/ingaSiu/eshop-project',
+  },
+  {
     name: 'Food Blog',
     img: `${imageRootPath}Project_1_main.png`,
     description:
@@ -45,14 +54,5 @@ export const projectInfo: InfoProps[] = [
     id: 2,
     urlDemo: 'https://food-blog-api.ingasiu.lt/',
     urlGit: 'https://github.com/ingaSiu/food-blog-api',
-  },
-  {
-    name: 'Ecommerce project',
-    img: `${imageRootPath}ecommerce_main.png`,
-    description:
-      'An e-commerce website to buy clothes - register, login, search, filter, add to cart, checkout clothes from a database. ',
-    id: 4,
-    urlDemo: '',
-    urlGit: 'https://github.com/ingaSiu/ecommerce-project',
   },
 ];
