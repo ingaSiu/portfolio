@@ -52,12 +52,14 @@ const About = () => {
             <Skill img="JavaScript.svg" name="JavaScript" />
             <Skill img="HTML.svg" name="HTML5" />
             <Skill img="CSS.svg" name="CSS3" />
-            <Skill img="StyledComponents.svg" name="Styled-components" />
+            <Skill img="TailwindCSS-Dark.svg" name="Tailwind CSS" />
+            <Skill img="NodeJS-Dark.svg" name="Node.js" />
             <Skill img="Github-Dark.svg" name="GitHub" />
           </div>
           <div className={styles.col}>
             <Skill img="TypeScript.svg" name="TypeScript" />
             <Skill img="React-Dark.svg" name="React" />
+            <Skill img="NextJS-Dark.svg" name="Next.js" />
             <Skill img="Sass.svg" name="Sass" />
             <Skill img="VSCode-Dark.svg" name="VS Code" />
             <Skill img="Git.svg" name="Git" />
@@ -69,16 +71,17 @@ const About = () => {
           <div className={styles.otherSkillsWrapper}>
             <div className={styles.familiarSkills}>
               <Skill img="MaterialUI-Dark.svg" name="" />
-              <Skill img="TailwindCSS-Dark.svg" name="" />
+              <Skill img="StyledComponents.svg" name="" />
               <Skill img="NodeJS-Dark.svg" name="" />
               <Skill img="MongoDB.svg" name="" />
               <Skill img="Postman.svg" name="" />
             </div>
             <div className={styles.familiarSkills}>
-              <Skill img="NextJS-Dark.svg" name="" />
               <Skill img="Bootstrap.svg" name="" />
               <Skill img="Jest.svg" name="" />
               <Skill img="Redux.svg" name="" />
+              <Skill img="Vite-Dark.svg" name="" />
+              <Skill img="Figma-Dark.svg" name="" />
             </div>
           </div>
         </div>
